@@ -1,3 +1,3 @@
-# Lab 2 - Starter
+# Lab 3
 
-https://wangharold001.github.io/cse110-lab2/
+https://wangharold001.github.io/sp25-cse110-lab3/
