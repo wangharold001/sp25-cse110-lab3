@@ -88,3 +88,12 @@ h1, h2 {
   .inline-block {
     display: inline-block;
   }
+
+  /* 11. Sizing */
+img {
+    width: 300px;
+    height: auto;
+    max-width: 100%;
+    min-width: 200px;
+  }
+  
