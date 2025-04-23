@@ -127,3 +127,13 @@ img {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
   }
+
+  /* 16. Responsiveness */
+@media (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+  }
