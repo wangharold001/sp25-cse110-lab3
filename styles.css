@@ -45,3 +45,31 @@ header {
     width: 80%;
     max-width: 800px;
   }
+
+  /* 6. Box Models #1: Margin (longhand + border) */
+main {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 4px;
+  }
+  
+  /* 7. Box Models #2: Padding (longhand) */
+  section {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+  
+  /* 8. Box Models #3: Margin/Padding shorthand */
+  fieldset {
+    margin: 2rem auto;
+  }
+  article {
+    padding: 1rem 2rem;
+  }
