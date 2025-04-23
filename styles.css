@@ -9,7 +9,7 @@ body {
 
   /* 3. CSS Variable Fallback */
 :root {
-    --primary-color: hsl(210, 80%, 60%);
+    --primary-color: hsl(210, 75%, 60%);
     --secondary-color: #FF5733;
     --bg-color: rgb(245, 245, 245);
     --fallback-color: var(--undefined-var, orange);
