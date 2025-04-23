@@ -81,3 +81,10 @@ h1, h2 {
     color: #334;
   }
   
+  /* 10. Toggle Display Types */
+.hidden {
+    display: none;
+  }
+  .inline-block {
+    display: inline-block;
+  }
