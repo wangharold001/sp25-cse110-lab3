@@ -25,8 +25,8 @@ nav ul {
     list-style-type: none;
 }
   details {
-    background-color: color(display-p3 0.2 0.4 0.6 / 0.3);
-  }
+    background-color: color-mix(in srgb, lightblue 30%, white 70%);
+}
   nav ul li {
     margin: 0.5rem 0;
   }
