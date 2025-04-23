@@ -1,0 +1,8 @@
+/* Comments are used throughout this stylesheet to explain sections */
+
+/* 3. Apply Colors to HTML Elements */
+body {
+    background-color: var(--bg-color);
+    color: var(--fallback-color);
+    font-family: 'Roboto', sans-serif;
+  }
