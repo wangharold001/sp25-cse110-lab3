@@ -73,3 +73,11 @@ main {
   article {
     padding: 1rem 2rem;
   }
+
+  /* 9. Style Text */
+h1, h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: #333;
+  }
+  
