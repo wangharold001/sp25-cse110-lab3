@@ -25,3 +25,23 @@ nav ul {
   details {
     background-color: color(display-p3 0.2 0.4 0.6 / 0.3);
   }
+
+  /* 5. Units Attribute */
+header {
+    padding: 1cm;
+    margin: 1in;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+  }
+  h1 {
+    margin-bottom: 2em;
+  }
+  p {
+    line-height: 1.5rem;
+  }
+  section {
+    width: 80%;
+    max-width: 800px;
+  }
