@@ -141,3 +141,39 @@ img {
 
 /* 17. Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* 18. Selectors */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #overview {
+    background-color: rgba(0, 150, 136, 0.1);
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  .highlight {
+    border: 2px dashed var(--secondary-color);
+    padding: 0.5em;
+    margin: 1em auto;
+  }
+  input[type="checkbox"] {
+    accent-color: var(--primary-color);
+  }
+  h1, h2 { }
+  header h1 { }
+  header > nav { }
+  h3 + p { color: #555; }
+  h2 ~ section { }
+  section.highlight { }
+  article:has(img) {
+    border: 3px solid magenta;
+    padding: 1em;
+    margin-bottom: 1em;
+  }
+  section {
+    & > h3 {
+      color: #2c3e50;
+    }
+  }
