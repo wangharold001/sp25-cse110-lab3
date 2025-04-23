@@ -20,10 +20,28 @@ body {
 
   /* 4. Background Styles */
 nav ul {
-    background-color: color-mix(in srgb, red 20%, blue 80%);
-  }
+    background-color: #2c0dbd; /* dark blue for better readability */
+    padding: 1rem;
+    list-style-type: none;
+}
   details {
     background-color: color(display-p3 0.2 0.4 0.6 / 0.3);
+  }
+  nav ul li {
+    margin: 0.5rem 0;
+  }
+  
+  nav ul li a {
+    color: white;              /* white text on dark background */
+    text-decoration: none;
+    display: inline-block;     /* avoid full-width anchor */
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* subtle hover */
   }
 
   /* 5. Units Attribute */

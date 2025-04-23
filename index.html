@@ -5,90 +5,77 @@
     <title>Hackathon Brainstorm</title>
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="styles.css">
-    </head>
+  </head>
   <body>
-    <header>
-        <h1>Meeting Notes and HTML Elements Demo</h1>
-        <nav>
-          <ul>
-            <li><a href="#overview">Overview</a></li>
-            <li><a href="#notes">Notes</a></li>
-            <li><a href="#multimedia">Multimedia</a></li>
-            <li><a href="#form-section">Favorite Animal?</a></li>
-          </ul>
-        </nav>
-      </header>
-<!-- a title (e.g. "Pomodoro Timer First Brainstorm")
-subtitle for the meeting section/the topic of the meeting (e.g. "brainstorming", "check-ins", "documentation")
-subtitle for the date
-attendance list
-agenda of what the meeting will cover
-things that were unfinished business from last meeting
-things that are new business that need to be talked about
-any miscellaneous comments / questions / concerns that anyone would like to bring up
-pictures of any diagrams / architecture / things that were presented
-SWE meetings often have people diagram things on a whiteboard so we want those captured as well
-For the following two, you can simply take a 30 second pretend audio recording & video recording to use, we are just trying to get you familiar with the <audio> and <video> elements. Yes, you must have both audio and video elements, and yes, you can use the audio from the video you took for the audio element, it just has to be in a separate audio file.
-audio recording the meeting
-video recording of the meeting -->
-<hr>
+    <header class="flex-container">
+      <h1>Meeting Notes and HTML Elements Demo</h1>
+      <nav>
+        <ul>
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#notes">Notes</a></li>
+          <li><a href="#multimedia">Multimedia</a></li>
+          <li><a href="#form-section">Favorite Animal?</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr>
 
     <main>
-        <section id="overview">
-            <header>
-                <h2>Overview</h2>
-              </header>
-              <div>
-                Welcome to the meeting notes demo. On this page, I used a variety of HTML tools to simulate a meeting minutes page for a 
-                hypothetical hackathon brainstorming section.
-              </div>
-              <p>This line uses <b>bold text</b> and <strong>strong importance</strong>, as well as <em>emphasized text</em>.<br>
-                This demonstrates a line break.</p>
-                
-              <section>
-                <h3>Today's Attendance</h3>
-                <ul>
-                  <li>Harry</li>
-                  <li>Simon</li>
-                  <li>Angelo</li>
-                  <li>Peter</li>
-                </ul>
-              </section>
-            </section>
-        <hr>
-        <section id="notes">
+      <section id="overview" class="highlight">
         <header>
-            <h2>Meeting Notes: Hackathon Discussion</h2>
-            <h3>Brainstorming Session</h3>
+          <h2>Overview</h2>
         </header>
-        <article>
-            <p>
-            <i>Date:</i> April 15, 2025
-            </p>
-            <section>
-                <h3>Today's Agenda</h3>
-                <ol>
-                  <li>Small talk</li>
-                  <li>Unfinished business from last meeting</li>
-                  <li>New business to discuss</li>
-                  <li>Miscellaneous comments, questions, or concerns</li>
-                </ol>
-              </section>
+        <div>
+          Welcome to the meeting notes demo. On this page, I used a variety of HTML tools to simulate a meeting minutes page for a 
+          hypothetical hackathon brainstorming section.
+        </div>
+        <p class="inline-block">This line uses <b>bold text</b> and <strong>strong importance</strong>, as well as <em>emphasized text</em>.<br>
+          This demonstrates a line break.</p>
 
+        <section>
+          <h3>Today's Attendance</h3>
+          <ul>
+            <li>Harry</li>
+            <li>Simon</li>
+            <li>Angelo</li>
+            <li>Peter</li>
+          </ul>
+        </section>
+      </section>
 
-            <div>
+      <hr>
+
+      <section id="notes">
+        <header>
+          <h2>Meeting Notes: Hackathon Discussion</h2>
+          <h3>Brainstorming Session</h3>
+        </header>
+        <article class="note-article">
+          <p><i>Date:</i> April 15, 2025</p>
+          <section>
+            <h3>Today's Agenda</h3>
+            <ol>
+              <li>Small talk</li>
+              <li>Unfinished business from last meeting</li>
+              <li>New business to discuss</li>
+              <li>Miscellaneous comments, questions, or concerns</li>
+            </ol>
+          </section>
+
+          <div>
             <span>Small talk:</span>
             <ul>
-                <li>Simon went skiing over the Spring Break</li>
-                <li>2/4 group members have summer internships lined up</li>
-                <li>Harry is upset after being rejected from Jane Street</li>
+              <li>Simon went skiing over the Spring Break</li>
+              <li>2/4 group members have summer internships lined up</li>
+              <li>Harry is upset after being rejected from Jane Street</li>
             </ul>
             <p>Unfinished Business:</p>
             <ul>
-                <li>Angelo owes Peter $5</li>
-                <li>Hackathon has started since last planning meeting, confirm team is still onboard with plan</li>
-                <li>Everyone has the AWS keys for deployment</li>
-              </ul>
+              <li>Angelo owes Peter $5</li>
+              <li>Hackathon has started since last planning meeting, confirm team is still onboard with plan</li>
+              <li>Everyone has the AWS keys for deployment</li>
+            </ul>
             <p>New business:</p>
             <ul>
               <li>Created Github repo for project</li>
@@ -96,116 +83,117 @@ video recording of the meeting -->
               <li>Decide working schedule: We are pulling the all-nighter!</li>
             </ul>
             <p>Additional Comments</p>
-              <ul>
-                <li>Harry needs help debugging a print statement</li>
-                <li>Peter punches Angelo for owing money</li>
-                <li>Cops called</li>
-                <li>Peter arrested, will come back after posting bail to help with deployment</li>
-                <li>Meeting continues, we decide to go bail Peter out so he can help with the rest of the project</li>
-              </ul>
-            </div>
+            <ul>
+              <li>Harry needs help debugging a print statement</li>
+              <li>Peter punches Angelo for owing money</li>
+              <li>Cops called</li>
+              <li>Peter arrested, will come back after posting bail to help with deployment</li>
+              <li>Meeting continues, we decide to go bail Peter out so he can help with the rest of the project</li>
+            </ul>
+          </div>
         </article>
-        </section>
+      </section>
 
-        <hr>
+      <hr>
 
-        <section id="multimedia">
-          <header>
-            <h2>Multimedia</h2>
-          </header>
-          <article>
-            <h3>Punch gif</h3>
-            <p>Below is a short GIF captured of Peter punching Angelo:</p>
-            <img src="knockout-500kb.gif" alt="Angelo getting KO'd" width="400">
-            <h3>Audio Recording</h3>
-            <audio controls>
-              <source src="audio1923514247.m4a" type="audio/mp4">
-              Your browser does not support the audio element.
-            </audio>
-            <h3>Video Recording</h3>
-            <video width="480" height="320" controls>
-              <source src="video1923514247.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-          </article>
-        </section>
+      <section id="multimedia" class="grid-container">
+        <header>
+          <h2>Multimedia</h2>
+        </header>
+        <article>
+          <h3>Punch gif</h3>
+          <p>Below is a short GIF captured of Peter punching Angelo:</p>
+          <img src="knockout-500kb.gif" alt="Angelo getting KO'd">
+          <h3>Audio Recording</h3>
+          <audio controls>
+            <source src="audio1923514247.m4a" type="audio/mp4">
+            Your browser does not support the audio element.
+          </audio>
+          <h3>Video Recording</h3>
+          <video width="480" height="320" controls>
+            <source src="video1923514247.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </article>
+      </section>
 
-        <hr>
+      <hr>
 
-        <section>
-          <header>
-            <h2>Additional Information</h2>
-          </header>
-          <details>
-            <summary>This additional section contains extra information such as follow-up actions and scheduling details. Click here for more details</summary>
+      <section>
+        <header>
+          <h2>Additional Information</h2>
+        </header>
+        <details>
+          <summary>This additional section contains extra information such as follow-up actions and scheduling details. Click here for more details</summary>
+          <p class="hidden">
+            We have scheduled a meeting at 8pm outside the police station to bail out Peter.
+          </p>
+        </details>
+      </section>
+
+      <hr>
+
+      <section id="form-section">
+        <header>
+          <h2>Feedback Form</h2>
+        </header>
+        <form action="#" method="post">
+          <fieldset>
             <p>
-              We have scheduled a meeting at 8pm outside the police station to bail out Peter.
+              <label>What is your favorite animal?:</label>
+              <textarea id="feedbackText" name="feedbackText" rows="4" cols="50" placeholder="Enter your favorite animal here..."></textarea>
             </p>
-          </details>
-        </section>
-        <hr>
-
-        <section id="form-section">
-          <header>
-            <h2>Feedback Form</h2>
-          </header>
-          <form action="#" method="post">
-            <fieldset>
-              <p>
-                <label >What is your favorite animal?:</label>
-                <textarea id="feedbackText" name="feedbackText" rows="4" cols="50" placeholder="Enter your favorite animal here..."></textarea>
-              </p>
-              <p>
-                <label >Subscribe to updates:</label>
-                <input type="checkbox" id="subscribe" name="subscribe">
-              </p>
-              <p>
-                <label>Rate the meeting out of 10:</label>
-                <input type="radio" id="rate1" name="rate" value="1">
-                <label for="rate1">1</label>
-                <input type="radio" id="rate2" name="rate" value="2">
-                <label for="rate2">2</label>
-                <input type="radio" id="rate3" name="rate" value="3">
-                <label for="rate3">3</label>
-                <input type="radio" id="rate4" name="rate" value="4">
-                <label for="rate3">Really? You'd go higher than 3?</label>
-              </p>
-              <p>
-                <label >Meeting Date:</label>
-                <input type="date" id="meetingDate" name="meetingDate">
-              </p>
-              <p>
-                <label >Select a fruit:</label>
-                <input list="topicOptions" id="topics" name="topics">
-                <datalist id="topicOptions">
-                  <option value="Apple">
-                  <option value="Banana Factory">
-                  <option value="Meta">
-                  <option value="Netflix">
-                </datalist>
-              </p>
-              <p>
-                <label >Major:</label>
-                <select id="major" name="major">
-                  <option value="engineering">Computer Engineering</option>
-                  <option value="jobless">Computer Science</option>
-                  <option value="worse than jobless">Math - Computer Science</option>
-                </select>
-              </p>
-              
-              <p>
-                <label >Name:</label>
-                <input type="text" id="username" name="username" placeholder="Your name">
-              </p>
-              <p>
-                <button type="submit">Submit Feedback</button>
-              </p>
-            </fieldset>
-          </form>
-        </section>
+            <p>
+              <label>Subscribe to updates:</label>
+              <input type="checkbox" id="subscribe" name="subscribe">
+            </p>
+            <p>
+              <label>Rate the meeting out of 10:</label>
+              <input type="radio" id="rate1" name="rate" value="1">
+              <label for="rate1">1</label>
+              <input type="radio" id="rate2" name="rate" value="2">
+              <label for="rate2">2</label>
+              <input type="radio" id="rate3" name="rate" value="3">
+              <label for="rate3">3</label>
+              <input type="radio" id="rate4" name="rate" value="4">
+              <label for="rate4">Really? You'd go higher than 3?</label>
+            </p>
+            <p>
+              <label>Meeting Date:</label>
+              <input type="date" id="meetingDate" name="meetingDate">
+            </p>
+            <p>
+              <label>Select a fruit:</label>
+              <input list="topicOptions" id="topics" name="topics">
+              <datalist id="topicOptions">
+                <option value="Apple">
+                <option value="Banana Factory">
+                <option value="Meta">
+                <option value="Netflix">
+              </datalist>
+            </p>
+            <p>
+              <label>Major:</label>
+              <select id="major" name="major">
+                <option value="engineering">Computer Engineering</option>
+                <option value="jobless">Computer Science</option>
+                <option value="worse than jobless">Math - Computer Science</option>
+              </select>
+            </p>
+            <p>
+              <label>Name:</label>
+              <input type="text" id="username" name="username" placeholder="Your name">
+            </p>
+            <p>
+              <button type="submit">Submit Feedback</button>
+            </p>
+          </fieldset>
+        </form>
+      </section>
     </main>
+
     <footer>
-      <p> 2025 Meeting Notes. All rights unreserved.</p>
+      <p class="inline-block">2025 Meeting Notes. All rights unreserved.</p>
     </footer>
   </body>
 </html>
