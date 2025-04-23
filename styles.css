@@ -97,3 +97,17 @@ img {
     min-width: 200px;
   }
   
+  /* 12. Positioning of Elements */
+#form-section {
+    position: relative;
+    top: 10px;
+  }
+  
+  /* 13. Add Pseudo-Class */
+  a:hover {
+    color: red;
+    text-decoration: none;
+  }
+  button:active {
+    transform: scale(0.98);
+  }
