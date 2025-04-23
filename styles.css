@@ -1,8 +1,27 @@
 /* Comments are used throughout this stylesheet to explain sections */
 
-/* 3. Apply Colors to HTML Elements */
+/* 2. Apply Colors to HTML Elements */
 body {
     background-color: var(--bg-color);
     color: var(--fallback-color);
     font-family: 'Roboto', sans-serif;
+  }
+
+  /* 3. CSS Variable Fallback */
+:root {
+    --primary-color: hsl(210, 80%, 60%);
+    --secondary-color: #FF5733;
+    --bg-color: rgb(245, 245, 245);
+    --fallback-color: var(--undefined-var, orange);
+  }
+  h1 {
+    color: var(--undefined-heading-color, #333);
+  }
+
+  /* 4. Background Styles */
+nav ul {
+    background-color: color-mix(in srgb, red 20%, blue 80%);
+  }
+  details {
+    background-color: color(display-p3 0.2 0.4 0.6 / 0.3);
   }
