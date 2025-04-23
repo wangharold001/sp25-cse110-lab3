@@ -137,3 +137,7 @@ img {
       grid-template-columns: 1fr;
     }
   }
+
+
+/* 17. Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
